@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/vicerascal/Nodetest#readme",
   "dependencies": {
-    "steem": "^0.7.1"
+    "await": "^0.2.6",
+    "defer": "^1.0.0",
+    "fibers": "^2.0.2",
+    "node-gyp": "^3.7.0",
+    "steem": "^0.7.1",
+    "synchronize": "^2.0.0"
   }
 }
