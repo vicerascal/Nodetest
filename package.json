@@ -1,0 +1,22 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Hello test!!",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicerascal/Nodetest.git"
+  },
+  "author": "vicerascal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicerascal/Nodetest/issues"
+  },
+  "homepage": "https://github.com/vicerascal/Nodetest#readme",
+  "dependencies": {
+    "steem": "^0.7.1"
+  }
+}
