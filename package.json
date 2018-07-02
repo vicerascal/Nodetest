@@ -20,8 +20,11 @@
     "await": "^0.2.6",
     "defer": "^1.0.0",
     "fibers": "^2.0.2",
+    "mysql": "^2.15.0",
     "node-gyp": "^3.7.0",
     "steem": "^0.7.1",
-    "synchronize": "^2.0.0"
+    "synchronize": "^2.0.0",
+    "winston": "^3.0.0",
+    "winston-daily-rotate-file": "^3.2.3"
   }
 }
