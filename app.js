@@ -2,9 +2,11 @@
 var winston = require('winston');
 require('winston-daily-rotate-file');
 const tsFormat = () => (new Date()).toLocaleTimeString();
-var logger = new (winston.Logger)({
+var logger = winston.createLogger({
    transports: [
-     new (winston.transports.Console)({ timestamp: tsFormat }),
+     new (winston.transports.Console)({
+          timestamp: tsFormat
+      }),
      new (winston.transports.DailyRotateFile)({
           // filename property 지정
           name : 'log'
