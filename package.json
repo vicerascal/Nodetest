@@ -19,13 +19,14 @@
   "dependencies": {
     "await": "^0.2.6",
     "defer": "^1.0.0",
+    "fiber": "^1.0.4",
     "fibers": "^2.0.2",
     "moment": "^2.22.2",
     "mysql": "^2.15.0",
     "node-gyp": "^3.7.0",
     "steem": "^0.7.1",
     "synchronize": "^2.0.0",
-    "winston": "^3.0.0",
+    "winston": "^2.4.3",
     "winston-daily-rotate-file": "^3.2.3"
   }
 }
