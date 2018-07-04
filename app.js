@@ -1,4 +1,4 @@
-// winston log init!
+// winston log init!!
 var winston = require('winston');
 require('winston-daily-rotate-file');
 const tsFormat = () => (new Date()).toLocaleTimeString();
